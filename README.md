@@ -1,12 +1,14 @@
 Orchestration Worshop Starter VMs
 =================================
 This is a simple Vagrant setup which will get 5 blank Virtualbox VMs setup with one command. All the boxes run ubuntu/trusty64.
+
 ## VMs included
 + Provisioner - Used to provision the other boxes with Chef, Ansible or any other orchestration + tool. Probably not needed if you are on a Mac or Linux.
 + Balancer - Load balancer for the 2 web servers
 + Web Server 1 - The 2 web servers
 + Web Server 2 - The 2 web servers
 + Database - The database server
+
 ## Prerequisites
 [Vagrant](https://www.vagrantup.com/) and [Virtualbox](https://www.virtualbox.org/)
 If you have issues make sure you are on the latest version of both.
